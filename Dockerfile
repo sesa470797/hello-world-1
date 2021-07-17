@@ -2,6 +2,5 @@
 From tomcat:8-jre8 
 
 # Maintainer 
-MAINTAINER "valaxytech@gmail.com" 
-COPY ./webapp.war /usr/local/tomcat/webapps
-RUN cp -R /usr/local/tomcat/webapps.dist/* /usr/local/tomcat/webapps
+MAINTAINER "deepakprasadc@gmail.com" 
+COPY ./webapp.war //root//apache-tomcat-8.5.69//webapps
